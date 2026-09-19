@@ -1,1 +1,0 @@
-![alt text](Bai2_Lab1.png)
