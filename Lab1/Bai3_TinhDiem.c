@@ -2,10 +2,7 @@
 int main(){
     char maSSV[10];
     char hovaTen[50];
-    float diemToan;
-    float diemLy;
-    float diemHoa;
-    float diemTB;
+    float diemTB, diemToan, diemLy, diemHoa;
 
     printf("Ma so sinh vien: ");
     scanf("%s", maSSV);
@@ -18,10 +15,11 @@ int main(){
     scanf("%f", &diemLy);
     printf("Diem hoa: ");
     scanf("%f", &diemHoa);
-    //xuat
-    diemTB= (diemToan * 2 + diemLy + diemHoa) / (float)4;
+    diemTB = (diemToan *2 + diemLy + diemHoa) / 4;
+
     printf("Ma so sinh vien: %s\n", maSSV);
     printf("Ho va ten: %s\n", hovaTen);
     printf("Diem trung binh: %f\n", diemTB);
     return 0;
+
 }
