@@ -1,2 +1,1 @@
-Bai1: https://youtu.be/LFlBW1RObzQ
-bai2: 
+Bai1: https://youtu.be/LFlBW1RObzQ bai2: https://youtu.be/3_pRzq98kRQ bai3: https://youtu.be/a6b36dRugRY Bai4: https://youtu.be/LiVux053ceI
