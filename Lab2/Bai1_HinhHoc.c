@@ -1,31 +1,26 @@
-
 #include <stdio.h>
-
 #define PI 3.14159
-
-int main() {
+int main(){
   float chieuDai, chieuRong, r, chuVi, dienTich;
-
-  printf("Nhap vao chieu dai: ");
+  printf("Chieu dai: ");
   scanf("%f", &chieuDai);
 
-  printf("Nhap vao chieu rong: ");
+  printf("Chieu rong: ");
   scanf("%f", &chieuRong);
-
-  printf("Nhap vao ban kinh: ");
+  
+  printf("Ban kinh: ");
   scanf("%f", &r);
 
-  // Hinh chu nhat
-  chuVi = (chieuDai + chieuRong) * 2;
+  chuVi = (chieuDai + chieuRong) *2;
   dienTich = chieuDai * chieuRong;
-  printf("Chu vi hinh chu nhat: %.2f\n", chuVi);
-  printf("Dien tich hinh chu nhat: %.2f\n", dienTich);
-
-  // Hinh tron
-  chuVi = r * 2 * PI;
+  
+  printf("Chu vi hinh chu nhat: %f\n", chuVi);
+  printf("Dien tich hinh chu nhat: %f\n", dienTich);
+  
+  chuVi = r *2 * PI;
   dienTich = (r * r) * PI;
-  printf("Chu vi hinh tron: %.2f\n", chuVi);
-  printf("Dien tich hinh tron: %.2f\n", dienTich);
 
+  printf("Chu vi hinh tron: %f\n", chuVi);
+  printf("Dien tich hinh tron: %f\n", dienTich);
   return 0;
 }
